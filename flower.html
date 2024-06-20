@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        #first{
+            background-color: white;
+            height: 600px;
+            width: 600px;
+            position: relative;
+            margin: auto;
+            
+        }
+        .common{
+            height: 300px;
+            width: 300px;
+            position: absolute;
+        }
+        .blue{
+            background-color: blue;
+            top: 0px;
+            border-top-right-radius: 100%;
+            border-bottom-left-radius: 100%;
+        }
+        .yellow{
+            background-color: yellow;
+            top: 0px;
+            left: 300px;
+            border-top-left-radius: 100%;
+            border-bottom-right-radius: 100%;
+        }
+        .pink{
+            background-color: pink;
+            top: 300px;
+            border-bottom-right-radius: 100%;
+            border-top-left-radius: 100%;
+        }
+        .red{
+            background-color: red;
+            top: 300px;
+            left: 300px;
+            border-bottom-left-radius: 100%;
+            border-top-right-radius: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="first">
+        <div class="common blue"></div>
+        <div class="common yellow"></div>
+        <div class="common pink"></div>
+        <div class="common red"></div>
+    </div>
+</body>
+</html>
